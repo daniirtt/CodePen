@@ -1,0 +1,21 @@
+.footer {
+    background-color: #030801;
+    height: 300px;
+    margin: -51px; 
+}
+
+.TR, TD {
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 25px;
+    border-style: none;
+    text-decoration: none;
+    background-color: #3a4042;
+    border-color: gray;
+    color: white;
+      
+    
+    
+}

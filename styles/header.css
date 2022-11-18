@@ -1,0 +1,122 @@
+/*Common nav styles */
+.header {
+    height: 20px;
+    margin: 0%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    text-align: justify;
+    padding: 50px 100px;
+    font-family: 'Barlow', sans-serif; 
+    
+}
+
+/*Logo style*/
+
+.header > .logo img {
+    width: auto;
+    height: 50px;
+    margin-left: -70px;
+}
+
+/*Navigation bar*/
+.explore {  
+    font-size: 20px;
+    color: #d1bd58;
+    margin: -30px -763px -5px 0px;
+}
+
+.navigation {
+    float: left;
+    text-align: left;
+    
+    
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 20px 0px 0px 510px;
+    font-size: 20px;
+}
+
+.navigation ul li {
+    display: inline-flex;
+    line-height: 80px;
+}
+
+.navigation ul li a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.color-two {
+    color: grey;
+}
+
+/*Buttons*/
+
+.header > .buttons {
+    font-family: 'Barlow', sans-serif;    
+}
+
+.create {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin: 0px 5px 0px 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 30px;
+    background-color:#3a4042;
+    border-radius:5px;
+}
+
+.create i {
+    color: #00cf72;
+
+}
+
+.search {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: transparent;
+}
+
+.log-in {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 0px -130px 0px 22px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #3a4042; 
+    border-radius:5px;
+}
+
+.sign-up {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 0px 0px 0px 140px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #3a4042;
+    border-radius:5px;
+}
